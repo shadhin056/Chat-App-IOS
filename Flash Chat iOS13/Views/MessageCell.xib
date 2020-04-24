@@ -19,7 +19,7 @@
                     <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vNa-1E-uUJ">
                         <rect key="frame" x="10" y="10" width="400" height="40"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MeAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="lTD-Bn-Mu0">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="YouAvatar" translatesAutoresizingMaskIntoConstraints="NO" id="lTD-Bn-Mu0">
                                 <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="40" id="Nwo-so-tLY"/>
@@ -64,7 +64,7 @@
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
                 <outlet property="label" destination="x6E-io-VWs" id="AZV-cL-95T"/>
-                <outlet property="leftImageView" destination="mdx-Xz-SV8" id="h1O-Z6-FcG"/>
+                <outlet property="leftImageView" destination="lTD-Bn-Mu0" id="gFA-CC-Abh"/>
                 <outlet property="messageBubble" destination="22i-py-2vR" id="UVN-NW-nFy"/>
                 <outlet property="rightImageView" destination="mdx-Xz-SV8" id="Bzw-oo-aAo"/>
             </connections>
@@ -73,5 +73,6 @@
     </objects>
     <resources>
         <image name="MeAvatar" width="36" height="36"/>
+        <image name="YouAvatar" width="36" height="36"/>
     </resources>
 </document>
